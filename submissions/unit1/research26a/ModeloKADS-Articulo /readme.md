@@ -49,14 +49,24 @@ El modelo organizacional en CommonKADS se enfoca en analizar la organización co
 El modelo organizacional se compone principalmente de:
 
 -   **Modelo de contexto (OM-1)**: describe el entorno organizacional y sus objetivos.
+  <!--  Ejemplo y texto agregado para OM-1 -->
+    *Ejemplo operativo:* Define el alcance global de la organización. Si se analiza un hospital, este modelo delimita las regulaciones de salud externas, las políticas internas y la misión de mejorar la atención al paciente. --!>
     
 -   **Modelo de procesos (OM-2)**: identifica y analiza los procesos principales del negocio.
+  <!--  Ejemplo y texto agregado para OM-2 -->
+    *Ejemplo operativo:* Mapea la cadena de valor. En una empresa manufacturera, desglosa el flujo desde la llegada de la materia prima, pasando por el ensamblaje, hasta la distribución final, localizando dónde se genera valor.--!>
     
 -   **Modelo de tareas (OM-3)**: detalla las tareas que se realizan dentro de los procesos.
+<!--  Ejemplo y texto agregado para OM-3 -->
+    *Ejemplo operativo:* Analiza los cuellos de botella cognitivos. No se limita a listar acciones, sino que evalúa la complejidad de una tarea específica, como la "evaluación de riesgos de crédito" en un banco, determinando si requiere experiencia avanzada.--!>
     
 -   **Modelo de agentes (OM-4)**: identifica a los actores humanos y sistemas involucrados.
+<!--  Ejemplo y texto agregado para OM-4 -->
+    *Ejemplo operativo:* Determina la ejecución y competencia. Establece quién realiza cada tarea (por ejemplo, un operador senior o un software CRM heredado) y evalúa si las habilidades del agente son suficientes o si el conocimiento está centralizado en una sola persona.--!>
     
 -   **Modelo de problemas y oportunidades (OM-5)**: detecta áreas de mejora donde el conocimiento puede aportar valor.
+  <!--  Ejemplo y texto agregado para OM-5 -->
+    *Ejemplo operativo:* Justifica la solución tecnológica. Identifica pérdidas financieras por malas decisiones operativas o fugas de conocimiento por jubilación de personal, proponiendo formalmente cómo un Sistema Basado en Conocimiento solventará dicha vulnerabilidad.--!>
 ---
 
 ## 4. Desarrollo
@@ -132,6 +142,17 @@ La principal utilidad del modelo organizacional es asegurar que los sistemas bas
 -   Evaluar la viabilidad de soluciones basadas en conocimiento.
     
 -   Reducir riesgos en el desarrollo de sistemas inteligentes.
+  Para comprender a fondo cómo interactúan estos componentes, es fundamental mapear de manera detallada los artefactos resultantes y las preguntas clave que cada plantilla busca resolver dentro de la metodología CommonKADS.
+
+| Plantilla / Componente | Enfoque Principal | Artefactos / Entregables | Pregunta Clave de Análisis |
+| :--- | :--- | :--- | :--- |
+| **OM-1: Contexto** | Estrategia de la empresa y entorno global. | Diagrama del entorno de negocio, lista de factores críticos de éxito. | ¿Cuál es la misión de la organización y qué factores externos impactan su operación? |
+| **OM-2: Procesos** | Cadena de valor y flujo de actividades. | Mapa de procesos, diagramas de flujo de trabajo (Workflow). | ¿Cómo fluyen el valor y la información a través de los departamentos clave? |
+| **OM-3: Tareas** | Descomposición operativa de procesos. | Catálogo de tareas, matriz de criticidad de conocimiento. | ¿Qué acciones específicas requieren experiencia humana avanzada o cuellos de botella cognitivos? |
+| **OM-4: Agentes** | Actores humanos y sistemas de software. | Perfiles de competencias, inventario de sistemas de información. | ¿Quién (o qué sistema de cómputo) ejecuta cada tarea y qué conocimiento posee? |
+| **OM-5: Problemas y Oportunidades**| Diagnóstico, viabilidad y justificación técnica. | Matriz de riesgos, propuesta formal de proyecto de Sistema Basado en Conocimiento (SBC). | ¿Dónde falla la transferencia de conocimiento y cómo puede la IA/SBC solucionar el problema? |
+
+Adicionalmente, el modelo sirve como un puente de comunicación interdisciplinario. Frecuentemente, los ingenieros de software carecen de una comprensión profunda de los procesos de negocio complejos, mientras que los expertos del dominio (los administradores o especialistas) desconocen el alcance de la Inteligencia Artificial. Al configurar la empresa bajo estas cinco plantillas, se establece un lenguaje común que previene la construcción de herramientas técnicamente impecables pero operativamente inútiles.
     
 
 ### 4.3 Ejemplo aplicado
